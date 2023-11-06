@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img-buttons{
+    margin-top: 5%;
+
+}
+
+.logo {
+    z-index: 1;
+    position: absolute;
+    left: 12vw;
+    top: 1vw;
+    width: 13vw;
+}
+
+.burger {
+    width: 100%;
+    position: relative;
+}
+
+.heading {
+    position: absolute;
+    top: 22vw;
+    left: 12vw;
+    color: aliceblue;
+}
+
+.genuine {
+    color: gold;
+}
+
+
+.heading h1 {
+    font-size: 4vw;
+    margin: 0;
+    
+}
+
+.design{
+    position: absolute;
+   top: 54vw;
+}
+.design img{
+    width: 100%;
+}
+
+.header {
+   
+   text-align: center;
+   padding: 5%;
+   margin: 2%;
+   
+   
+}
+/*.popular-heading {
+    gap: 2rem;
+}*/
+ 
+.header h1 {
+    color: rgb(174, 49, 49);
+    font-size: 250%;
+}
+.top-btn {
+    padding: 15px;
+    border: 1px;
+    border-radius: 17px;
+    width: 10vw;
+    background-color: rgb(223, 25, 25);
+    color: wheat;
+    margin: 1%;
+  
+}
+
+
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.items .item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.item .item-image img {
+    width: 100%;
+}
+
+.item .like,.price,.reviews {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+} 
+ 
+.bottom-area {
+    text-align: center;
+    padding: 3%;
+   
+}
+
+.quality1, .quality {
+    color: #bbb;
+
+}
+
+.quality1 {
+    padding: 1%;
+}
+
+.contact {
+    font-weight: bold;
+    padding: 3%;
+}
+
+ .rights {
+    color: #bbb;
+    font-size: small;
+    padding: 1%;
+    bottom: 0%;
+ }
+
+
+
+
+.review-html{
+    position: fixed;
+    border: 1px solid black;
+    top: 5vw;
+    left: 27vw;
+    background-color: white;
+    width: 37vw;
+    /* height: 60vh; */
+    border-radius: 1vw;
+    padding: 3vw;
+    line-height: 4vw;
+}
+
+
+.iconX {
+    position: absolute;
+    width: 1.5vw;
+    right: 1vw;
+   top: 1vw;
+}
+
+span {
+
+    font-weight: 800;
+    
+}
+
+.likes {
+    width: 1vw;
+    
+}
+
+ .btn {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 8vw;
+    background-color: white;
+}
+
+.form input[type="text"]{
+    width: 100%;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+form .send{
+    padding: 0.5vw 3vw;
+    border: 0;
+    border-radius: 15px;
+    background-color: goldenrod;
+    color: white;
+}
+
+.jone{
+    line-height: 1.5vw;
+    margin-top: 2vw;
+}
+.jone h5{
+    font-size: 1.3vw;
+}
+.jone p{
+    font-size: 0.8vw;
+}
+
+.onebtn{
+   display: flex;
+}
+.onebtn div{
+    border: 1px solid black;
+    padding: 5px;
+}
+.plus{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+
+.back-home {
+    padding: 1.5;
+}
+
+.cart-items{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 1rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.divcart{
+   box-shadow: 10px 10px 20px gray;
+    display: flex;
+    gap: 3vw;
+}
+
+.cart-brush {
+text-align: center;
+padding: 5%;
+}
+
+#addto{
+    margin-top: 7vw;
+
+}
+
+#cartimg{
+    width: 35vw;
+}
+/* .sub-chick {
+    border-radius: 13%;
+}
+
+.chick {
+    border-radius: 5%;
+}
+
+.toppings {
+ height: 96%;
+ border-radius: 2%;
+} */
+
+.description{
+    margin-top: 1.1vw;
+    font-size: 1vw;
+}
+
+#addto{
+    
+    position: relative;
+    margin-top: 1.5vw;
+    width: 5vw;
+    top: 4vw;
+    margin-left: 1vw;
+    
+}
+
+#cartprice{
+    position: relative;
+    top: 1vw;
+    margin-left: 1vw;
+    color: brown;
+}
+
+#additem{
+    border-radius: 1vw;
+    background-color:goldenrod;
+    border: white;
+    color: wheat;
+    font-size: 1vw;
+
+    margin-top: 3vw;
+    width: 10vw;
+    margin-left: 1vw;
+    padding: .5vw;
+   
+
+}
+.img {
+   
+}
+.bottom-div{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+
+.back-home2 {
+    border-radius: 1vw; 
+    background-color: rgb(223, 25, 25);
+    color: antiquewhite;
+    border: rgb(223, 25, 25);
+    font-size: 1.3vw;
+    padding:.5vw ;
+    width: 12vw;
+    
+    
+}
+ .bottom-div h2 {
+    font-size: 2vw;
+ }
+
+ .endpage {
+    margin-top: 2vw;
+ }
+  
+ .captain-black{
+    width: 12vw;
+ }
